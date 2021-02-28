@@ -1,0 +1,19 @@
+{
+    "fargateProfileName": "testFargateProfile",
+    "clusterName": "eks-cluster-console",
+    "podExecutionRoleArn": "arn:aws:iam::803314449489:role/AmazonEKSFargatePodExecutionRole",
+    "subnets": [
+        "subnet-0e9e5adb6eacf5f16",
+        "subnet-0c27f2925f9d58da9"
+    ],
+    "selectors": [
+        {
+            "namespace": "default"
+
+        }
+    ],
+    "tags": {
+        "project": "eks-cluster-console",
+        "RunningOn": "Fargate"
+    }
+}
